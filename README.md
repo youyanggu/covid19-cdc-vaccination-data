@@ -20,8 +20,8 @@ Below are the raw API endpionts that we use to download and save the data daily:
 
 ## Other Repositories
 
-- [Latest Infections Estimates](https://github.com/youyanggu/covid19-infection-estimates-latest)
-- [Main Data Repository](https://github.com/youyanggu/covid19_projections)
+- [Main COVID-19 Repository](https://github.com/youyanggu/covid19_projections)
+- [Infections Estimates](https://github.com/youyanggu/covid19-infection-estimates-latest)
 - [COVID-19 Datasets](https://github.com/youyanggu/covid19-datasets)
 - [SEIR Simulator](https://github.com/youyanggu/yyg-seir-simulator)
 - [Model Evaluations](https://github.com/youyanggu/covid19-forecast-hub-evaluation)
