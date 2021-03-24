@@ -1,9 +1,9 @@
 # Historical CDC Vaccination Time Series Data
 Source: https://covid.cdc.gov/covid-data-tracker/#vaccinations
 
-*Updated daily minus holidays*
+From December 2020 to March 2021, we aggregated daily vaccination snapshots from the [CDC Vaccinations](https://covid.cdc.gov/covid-data-tracker/#vaccinations) page. We make this time series data available in this repository. This is different than the [CDC Vaccination Trends](https://covid.cdc.gov/covid-data-tracker/#vaccination-trends) data, as that dataset is retroactively updated based on the date of vaccination, whereas this one is based on date of reporting and hence is not retroactively updated. Hence, for model training, we recommend using this non-retroactive dataset to avoid look-ahead bias.
 
-Visualization of CDC data available at [covid19-projections.com](https://covid19-projections.com/path-to-herd-immunity/).
+Visualization of CDC data available at [covid19-projections.com](https://covid19-projections.com/vaccination_cdc) (through March 8, 2021).
 
 ## Raw Endpoints
 
