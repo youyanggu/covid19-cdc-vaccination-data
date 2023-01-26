@@ -1,5 +1,7 @@
 # Historical CDC Vaccination Time Series Data
 
+*Note: CDC stopped daily reporting of vaccination data on 2022-06-16 and changed to weekly reporting, so that is the final date of our data collection*
+
 This repository contains the most comprehensive and up-to-date historical CDC vaccination data. We aggregate daily vaccination snapshots from the [CDC Vaccinations](https://covid.cdc.gov/covid-data-tracker/#vaccinations) page. This is different than the [CDC Vaccination Trends](https://covid.cdc.gov/covid-data-tracker/#vaccination-trends) data, as that dataset is retroactively updated based on the date of vaccination, whereas this one is based on date of reporting and hence is not retroactively updated. Hence, for model training, we recommend using this non-retroactive dataset to avoid look-ahead bias.
 
 Visualization of CDC data available at [covid19-projections.com](https://covid19-projections.com/vaccination_cdc) (through March 8, 2021). Learn more about how *covid19-projections.com* used this data on the [Path to Normality](https://covid19-projections.com/path-to-herd-immunity) page.
